@@ -195,7 +195,7 @@ body {
 .banner h2
 {
     position: relative;
-    top: 355px;
+    top: 315px;
     font-family: 'DM Mono';
     font-size: 60px;
     font-weight: 600;
@@ -353,6 +353,13 @@ body {
 
 @media (max-width: 991px)
 {
+
+    #resume
+    {
+        display: flex;
+        position: fixed;
+        top: 200px;
+    }
 
     .but
     {
@@ -629,3 +636,43 @@ iframe
     text-decoration: none;
 }
 
+#resume
+{
+    position: fixed;
+    top: 100px;
+}
+
+#button1 {
+    border-top: 1px solid #288bc9;
+    background: #97afbf;
+    background: -webkit-linear-gradient(linear, left top, left bottom, from(#3e789c), to(#97afbf));
+    background: -webkit-linear-gradient(top, #3e789c, #97afbf);
+    background: -moz-linear-gradient(top, #3e789c, #97afbf);
+    background: -ms-linear-gradient(top, #3e789c, #97afbf);
+    background: -o-linear-gradient(top, #3e789c, #97afbf);
+    padding: 11px 22px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    position: fixed;
+    top: 500px;
+    left: 600px;
+    }
+ #button1:hover {
+    border-top-color: #32404a;
+    background: #031321;
+    color: #ccc;
+    }
+ #button1:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
